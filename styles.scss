@@ -1,0 +1,33 @@
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Import Angular Material theme
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+// Global styles
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// Custom material overrides
+.mat-card {
+  margin: 8px;
+}
+
+// Utility classes
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
