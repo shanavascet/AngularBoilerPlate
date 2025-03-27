@@ -1,0 +1,27 @@
+<mat-toolbar color="primary" class="header-toolbar">
+  <div class="header-content">
+    <div class="logo-section">
+      <span class="app-title">{{ appTitle }}</span>
+    </div>
+    
+    <nav class="nav-section">
+      <ul class="nav-list">
+        <li *ngFor="let item of navItems">
+          <a mat-button [routerLink]="item.link" routerLinkActive="active-link">
+            {{ item.name }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="user-section">
+      <button mat-icon-button [matMenuTriggerFor]="userMenu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #userMenu="matMenu">
+        <button mat-menu-item>Profile</button>
+        <button mat-menu-item>Logout</button>
+      </mat-menu>
+    </div>
+  </div>
+</mat-toolbar>
