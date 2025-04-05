@@ -1,3 +1,32 @@
+<mat-toolbar color="primary" class="topbar">
+  <!-- Left: Logo -->
+  <div class="d-flex align-items-center">
+    <img src="assets/usbank-logo.png" alt="US Bank" class="logo-img me-3">
+  </div>
+
+  <!-- Center: Title -->
+  <span class="navbar-title flex-grow-1 text-center">Campaign Generator - UAT</span>
+
+  <!-- Right: Dropdown + Sign Out -->
+  <div class="d-flex align-items-center gap-3">
+    <mat-form-field appearance="outline" class="dropdown">
+      <mat-label>Location</mat-label>
+      <mat-select>
+        <mat-option value="MSP">MSP</mat-option>
+        <mat-option value="NYC">NYC</mat-option>
+        <mat-option value="LA">LA</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button color="warn">Sign Out</button>
+  </div>
+</mat-toolbar>
+
+
+
+===================================================================================================
+
+
+
 <mat-toolbar color="primary" class="header-toolbar">
   <div class="header-content">
     <div class="logo-section">
