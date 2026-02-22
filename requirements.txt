@@ -1,0 +1,6 @@
+# PR Config Tool — Python dependencies
+# Install with: pip install -r requirements.txt
+
+openpyxl>=3.1.0       # Excel file reading
+# tkinter is included in the Python standard library (no install needed)
+# urllib is included in the Python standard library (no install needed)
